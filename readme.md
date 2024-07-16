@@ -53,18 +53,28 @@ To set up the project locally, follow these steps:
    .env
    --for backend
    MONGODB_URI=your_mongodb_uri
+   
    AUTH0_DOMAIN=your_auth0_domain
+   
    AUTH0_CLIENT_ID=your_auth0_client_id
+   
    AUTH0_CLIENT_SECRET=your_auth0_client_secret
+   
    STRIPE_SECRET_KEY=your_stripe_secret_key
+   
    CLOUDINARY_URL=your_cloudinary_url
+   
   ## for frontend .env
-   VITE_API_BASE_URL=http://localhost:portBackend
+   VITE_API_BASE_URL=http://localhost:port
 
 VITE_AUTH0_DOMAIN =
+
 VITE_AUTH0_CLIENT_ID =
-VITE_AUTH0_CALLBACK_URL =http://localhost:server 
+
+VITE_AUTH0_CALLBACK_URL =http://localhost:server
+
 VITE_AUTH0_AUDIENCE=
+
 
 4. **Start the development server:**
 ## run seperately for frontend and backend 
