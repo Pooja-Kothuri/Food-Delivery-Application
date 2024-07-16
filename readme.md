@@ -77,7 +77,7 @@ VITE_AUTH0_AUDIENCE=
 
 
 4. **Start the development server:**
-## run seperately for frontend and backend 
+ run seperately for frontend and backend 
    npm run dev
    
 
